@@ -22,7 +22,7 @@ class StroreRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            //asdasdasd
         ];
     }
 }
