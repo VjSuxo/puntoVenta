@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('purchase_details', function (Blueprint $table) {
             $table->id();
+            $table->decimal('tax');
+            $table->decimal('total');
+
             $table->timestamps();
         });
     }
